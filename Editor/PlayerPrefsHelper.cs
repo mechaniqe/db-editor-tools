@@ -6,14 +6,14 @@ namespace DynamicBox.Editor
 {
   public class PlayerPrefsHelper : MonoBehaviour
   {
-    [MenuItem ("DynamicBox/Delete data/All")]
+    [MenuItem ("Tools/DynamicBox/Delete data/All")]
     public static void DeleteAll ()
     {
       DeletePlayerPrefs ();
       DeleteAppData ();
     }
     
-    [MenuItem ("DynamicBox/Delete data/PlayerPrefs")]
+    [MenuItem ("Tools/DynamicBox/Delete data/PlayerPrefs")]
     public static void DeletePlayerPrefs ()
     {
       PlayerPrefs.DeleteAll ();
@@ -21,7 +21,7 @@ namespace DynamicBox.Editor
       Debug.Log ($"<color=green>PlayerPrefs:</color> Cleared");
     }
 
-    [MenuItem ("DynamicBox/Delete data/App data")]
+    [MenuItem ("Tools/DynamicBox/Delete data/App data")]
     public static void DeleteAppData ()
     {
       if (Directory.Exists (Application.persistentDataPath))

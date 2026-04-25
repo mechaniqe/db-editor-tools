@@ -1,7 +1,7 @@
 {
   "name": "net.dynamicbox.editortools",
   "displayName": "Editor Tools",
-  "version": "1.0.2.1",
+  "version": "1.0.3",
   "unity": "2019.1",
   "description": "This package contains \"Editor Tools\" we frequently use in our games.\n\nReach out to hello@dynamicbox.net for extra details.",
   "keywords": [
